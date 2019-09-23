@@ -26,10 +26,7 @@ template:
           '[' + $env.branch + ']('+ $env.repository + '/tree/' + $env.branch + ')' :
           '[master]('+ $env.repository + '/tree/master)'
 toolchain:
-  name: 'simple-toolchain-{{timestamp}}'
-  template:
-    getting_started:
-      $ref: "#/messages/template.gettingStarted"
+  name: 'todolist-toolchain-{{timestamp}}'
 services:
   sample-repo:
     service_id: >
