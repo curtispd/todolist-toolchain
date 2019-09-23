@@ -25,4 +25,4 @@ toolchain:
   name: 'todolist-toolchain-{{timestamp}}'
 services:
   todolist:
-    service_id: orion
+    service_id: todolist
